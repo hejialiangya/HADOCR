@@ -1,0 +1,8 @@
+imgaug
+lmdb
+numpy
+opencv-python<=4.6.0.66
+pyclipper
+pyyaml
+rapidfuzz
+tqdm
