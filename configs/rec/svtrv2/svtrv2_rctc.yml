@@ -66,13 +66,13 @@ Train:
     name: RatioDataSetTVResize
     ds_width: True
     padding: False
-    data_dir_list: [#'../Union14M-L-LMDB-Filtered/filter_train_challenging',
-    #'../Union14M-L-LMDB-Filtered/filter_train_hard',
-    #'../Union14M-L-LMDB-Filtered/filter_train_medium',
-    #'../Union14M-L-LMDB-Filtered/filter_train_normal',
-    #'../Union14M-L-LMDB-Filtered/filter_train_easy',
-    '../synth/MJ/train',
-    '../synth/ST',
+    data_dir_list: ['../Union14M-L-LMDB-Filtered/filter_train_challenging',
+    '../Union14M-L-LMDB-Filtered/filter_train_hard',
+    '../Union14M-L-LMDB-Filtered/filter_train_medium',
+    '../Union14M-L-LMDB-Filtered/filter_train_normal',
+    '../Union14M-L-LMDB-Filtered/filter_train_easy',
+    #'../synth/MJ/train',
+    #'../synth/ST',
     ]
     transforms:
       - DecodeImagePIL: # load image
