@@ -81,7 +81,7 @@ test<br>
 ├── SVT<br>
 ├── SVTP<br>
 └── Uber<br>
-train_data_set  # individual dataset<br>
+train_data_set  　 # individual dataset<br>
 u14m<br>
 ├── artistic<br>
 ├── contextless<br>
@@ -96,5 +96,7 @@ Union14M-L-LMDB-Filtered<br>
 ├── filter_train_hard<br>
 ├── filter_train_medium<br>
 └── filter_train_normal<br>
-</details>
-![img.png](dataset_str.png)
+</details><br>
+
+![](dataset_str.png)
+
